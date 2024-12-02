@@ -1,4 +1,3 @@
-
 /* Box sizing rules */
 *,
 *::before,
@@ -14,14 +13,22 @@ html {
 }
 
 /* Remove default margin in favour of better control in authored CSS */
-body, h1, h2, h3, h4, p,
-figure, blockquote, dl, dd {
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
   margin-block-end: 0;
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
-ul[role='list'],
-ol[role='list'] {
+ul[role="list"],
+ol[role="list"] {
   list-style: none;
 }
 
@@ -32,14 +39,21 @@ body {
 }
 
 /* Set shorter line heights on headings and interactive elements */
-h1, h2, h3, h4,
-button, input, label {
+h1,
+h2,
+h3,
+h4,
+button,
+input,
+label {
   line-height: 1.1;
 }
 
 /* Balance text wrapping on headings */
-h1, h2,
-h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   text-wrap: balance;
 }
 
@@ -57,8 +71,10 @@ picture {
 }
 
 /* Inherit fonts for inputs and buttons */
-input, button,
-textarea, select {
+input,
+button,
+textarea,
+select {
   font-family: inherit;
   font-size: inherit;
 }
@@ -73,33 +89,32 @@ textarea:not([rows]) {
   scroll-margin-block: 5ex;
 }
 
-
 /* CSS Styles */
 * {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
-    font-size: 1rem;
-} 
+  font-size: 1rem;
+}
 .top {
   text-align: start;
-  background-image: url('Place Your Image Her.svg');
+  background-image: url("Place Your Image Her.svg");
   background-size: cover;
   background-repeat: no-repeat;
   padding: 15px;
   margin: 12px 0;
 }
-.2 {
+.t {
   display: flex;
-  flex-direction: row; 
+  flex-direction: row;
   justify-content: space-between;
   justify-content: center;
 }
 ul {
   display: flex;
   flex-direction: row;
-  gap: 10px; 
+  gap: 10px;
   list-style: none;
 }
 button {
